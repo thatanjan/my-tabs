@@ -1,16 +1,9 @@
-import { useState } from 'react'
-import reactLogo from '@/assets/react.svg'
-import wxtLogo from '/wxt.svg'
-import './App.css'
-
 function App() {
-  const [count, setCount] = useState(0)
-
   const sessionName = 'WXT + React'
 
   return (
     <>
-      <h1 className='text-2xl text-center text-blue-500'>
+      <h1 className='text-2xl btn text-center text-blue-500'>
         You are running {sessionName}
       </h1>
     </>
